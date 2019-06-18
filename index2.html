@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="buttons">
+        <button id='rock' type="button" onclick="rockGame()" ;>rock</button>
+        <button id='paper' type="button" onclick="paperGame()">paper</button>
+        <button id='scissors' type="button" onclick="scissorGame()">scissors</button>
+    </div>
+    <div class="computer">
+        <button id='computer' type="button" onclick="computerGame();determineWinner();">computer</button>
+        <input id="winner" type="text" name="fname" placeholder="Im'a gonna win"><br>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
